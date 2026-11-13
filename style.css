@@ -1,0 +1,130 @@
+/* BASIC SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f1f3ff;
+    color: #26324a;
+    line-height: 1.7;
+}
+
+/* HERO SECTION */
+header {
+    background: linear-gradient(135deg, #101b3d, #39318a, #6746b8);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #dce4ff;
+    margin: 6px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #172448;
+    padding: 18px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #65ddff;
+}
+
+/* CONTENT SECTIONS */
+main {
+    max-width: 1050px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    border-left: 5px solid #6955c9;
+    box-shadow: 0 5px 20px rgba(30, 40, 90, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(30, 40, 90, 0.13);
+}
+
+h2 {
+    color: #43358f;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+h3 {
+    color: #253d73;
+    margin-bottom: 8px;
+}
+
+/* SKILLS */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* LINKS */
+a {
+    transition: 0.3s;
+}
+
+section a {
+    color: #5546b5;
+}
+
+/* FOOTER */
+footer {
+    background: #172448;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section {
+        padding: 22px;
+    }
+}
